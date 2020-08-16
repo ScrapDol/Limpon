@@ -15,23 +15,104 @@ h1
 {
     font-size: 80px;
     font-weight: 600;
-    color:#192b59;   
+    color:#192b59;
+    max-width: 540px;
+    line-height: 1.1;
+    letter-spacing: -2.5;
+    margin-bottom: 65px;   
 }
 
 .nav
 {
     font-size: 12px;
     font-weight: 700;
-    color:#6e7ea9;
     text-transform: uppercase;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    display: flex;
 }
+
+.nav>li
+{
+    padding: 0 15px;
+}
+
+.nav-item
+{
+    color:#6e7ea9;
+}
+
+.wrap
+{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.btn-primary
+{
+    color:#ffffff;
+    letter-spacing: 2.3px;
+    background-color:#1085e4;
+    border:1px solid #1085e4;
+    text-transform: uppercase;
+    list-style-type:none;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+
+.btn-primary:hover
+{
+    color: #1085e4;
+    background-color: #ffffff;
+}
+
+.btn-secondary
+{
+    color:#7e8bae;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    background-color:#cbdbe8;
+    border:1px solid #cbdbe8;
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+
+.btn-secondary:hover
+{
+    background-color: #ffffff;
+}
+
 
 .btn-free
 {
-    color:#ffffff;
     font-weight: 400;
-    background-color:#1085e4;
+    padding: 21px 56px;
+    letter-spacing: 1.7px;
 }
+
+.btn-group a + a
+{
+    margin-left: 15px;
+}
+
+.btn-info
+{
+    color:#8085b1;
+    background-color: transparent;
+    border: 1px solid #dce1e5;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+    padding: 20px 30px;
+    border-radius: 30px;
+}
+
 
 .grid h2
 {
@@ -108,35 +189,64 @@ h1
     font-size: 16px;
 }
 
+.page-stats     
+{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    max-width: 500px;
+    line-height: 1.2;
+    margin: 0 auto;
+}
+
 .page-stats h2 span
 {
     display: block;
     font-weight: 800;
     color:#1085e4;
     font-size: 16px;
+    margin-bottom: 14px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
 .page-stats h2
 {
     font-size: 50px;
     font-weight: 600;
+    letter-spacing: -1.5px;
     color:#192b59;
 }
 
-.page-stats li span
+.list-stat>li>span
 {
     font-size: 60px;
     font-weight: 700;
     color:#bacbdc;
     display: block;
+    letter-spacing: 0;
+    margin-bottom: 20px;
 }
 
-.page-stats li 
+.list-stat>li 
 {
     font-size: 12px;
     font-weight: 700;
     color:#1085e4;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2.7px;
 }
+
+.list-stat
+{
+    display: flex;
+    list-style-type: none;
+    margin-top: 76px;
+    justify-content: space-around;
+}
+
+
 
 .page-app h2
 {
@@ -150,6 +260,11 @@ h1
     font-size: 16px;
     font-weight: 700;
     color:#bacbdc;
+}
+
+.page-analytics ul
+{
+    list-style-type:none;
 }
 
 .page-analytics h2
@@ -180,4 +295,122 @@ h1
     font-size: 40px;
     font-weight: 600;
     color:#192b59;
+}
+
+.page-clients span
+{
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+    color:#85c8ff;
+}
+
+.page-clients h2
+{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.name 
+{
+    font-size: 22px;
+    font-weight: 600;
+    color:#000958;
+}
+
+.pisition
+{
+    font-size: 14px;
+    font-weight: 700;
+    color:#1085e4;
+}
+
+.page-plan span
+{
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+    color:#1085e4;
+}
+
+.page-plan h2
+{
+    font-size: 40px;
+    font-weight: 600;
+    color:#192b59;
+}
+
+.box-price-item-low h3
+{
+    display: block;
+    font-size: 70px;
+    font-weight: 700;
+    color:#000958;
+}
+
+.box-price-item-low span
+{
+    font-size: 14px;
+    font-weight: 700;
+    color:#0084ff;
+}
+
+.box-price-item-low ul
+{
+    font-size: 14px;
+    font-weight: 700;
+    color:#8085b1;
+}
+
+.box-price-item-active span
+{
+    font-size: 20px;
+    font-weight: 700;
+    color:#8085b1;
+}
+
+.box-price-item-active h3
+{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.box-price-item-active p
+{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.box-price-item-max span
+{
+    font-size: 20px;
+    font-weight: 700;
+    color:#8085b1;
+}
+
+.box-price-item-max h3
+{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.box-price-item-max p
+{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.page-team span
+{
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+    color:#85c8ff;
+    text-align: center;
+}
+
+.page-team h2
+{
+    font-size: 40px;
+    font-weight: 600;
 }
